@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PracticeEmailTemplate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form>
+        <div class="header">
+                <legend>New Message</legend>
+                <button type="submit">SEND</button>
+        </div>
+        <fieldset class="input-fields">
+            <input type="email" id="from" name="from" placeholder="yourusername@email.com" required>
+        </fieldset>
+        <fieldset class="input-fields">
+            <input type="email" id="to" name="to" placeholder="username@email.com" required>
+        </fieldset>
+         <fieldset class="input-fields">       
+                <input type="text" id="subject" name="subject" placeholder="Subject" required>
+        </fieldset>
+        <fieldset class="input-fields">
+            <textarea 
+                id="comments" name="comments" rows="24" cols="64" placeholder="Type Here" required>
+            </textarea>
+        </fieldset>
+        
+    </form>
+</body>
+</html>
